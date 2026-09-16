@@ -1,1 +1,1 @@
-cat data/pushkin.txt | grep -o "\WПугачев\W" | wc -w
+cat data/pushkin.txt | grep -o "Пугачев\W" | wc -w
